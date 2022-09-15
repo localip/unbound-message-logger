@@ -1,0 +1,19 @@
+.ml-deleted:not([class*='ephemeral']) div[id*="message-content"] {
+   color: rgb(var(--deleted-colour)) !important;
+}
+
+.ml-deleted:not([class*='ephemeral']) div[class*="messageAttachment"] {
+   filter: grayscale(1) !important;
+}
+
+.ml-deleted[class*='ephemeral'] {
+   background-color: rgba(var(--deleted-colour), 0.05) !important;
+}
+
+.ml-deleted[class*='ephemeral']:hover {
+   background-color: rgba(var(--deleted-colour), 0.1) !important;
+}
+
+.ml-deleted[class*='ephemeral']::before {
+   background-color: rgba(var(--deleted-colour), 0.5) !important;
+}

@@ -1,0 +1,42 @@
+{
+   "module": {
+      "type": "commonjs"
+   },
+   "minify": true,
+   "jsc": {
+      "externalHelpers": false,
+      "parser": {
+         "syntax": "typescript",
+         "tsx": true,
+         "decorators": true,
+         "dynamicImport": false
+      },
+      "target": "es2022",
+      "minify": {
+         "compress": {
+            "booleans_as_integers": true,
+            "dead_code": true,
+            "reduce_vars": true,
+            "reduce_funcs": true,
+            "keep_classnames": true,
+            "keep_fargs": true
+         },
+         "keepClassnames": true,
+         "mangle": true
+      },
+      "transform": {
+         "react": {
+            "useBuiltins": true
+         },
+         "optimizer": {
+            "simplify": true
+         }
+      },
+      "baseUrl": "src",
+      "paths": {
+         "@client": [
+            "client/index.ts"
+         ]
+      }
+   }
+}

@@ -1,0 +1,7 @@
+#ml-notification-message {
+   list-style-type: none;
+}
+
+#ml-notification-message > div {
+   border-radius: 5px;
+}

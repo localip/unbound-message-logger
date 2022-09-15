@@ -1,0 +1,13 @@
+{
+   "name": "Message Logger",
+   "description": "Logs deleted, edited & sent messages/images.",
+   "version": "1.0.0",
+   "authors": [
+      {
+         "name": "eternal",
+         "id": "263689920210534400"
+      }
+   ],
+   "main": "dist",
+   "id": "eternal.message-logger"
+}

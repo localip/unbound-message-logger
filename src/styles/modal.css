@@ -1,0 +1,109 @@
+#ml-logs-modal {
+   display: flex;
+}
+
+#ml-logs-modal > div[class*='root'] {
+   height: 751vh;
+   width: 75vw;
+}
+
+#ml-logs-modal > div[class*='root'] > div[class*='content'] {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.ml-logs-layer-close {
+   margin-left: auto;
+}
+
+.ml-logs-tab-bar {
+   padding: 0 16px;
+}
+
+.ml-logs-tab-wrapper {
+   display: block;
+}
+
+.ml-logs-modal-guild {
+   border-radius: 50%;
+   width: 16px;
+   height: 16px;
+}
+
+.ml-logs-header {
+   display: block;
+   padding: 0;
+   overflow: visible;
+}
+
+.ml-logs-title {
+   display: flex;
+   padding: 16px;
+}
+
+.ml-logs-form-title {
+   margin: 0;
+   display: flex;
+   align-items: center;
+   padding: 0;
+}
+
+.ml-logs-message-list {
+   margin: 1rem 0;
+   width: 100%;
+   padding: 0 10px;
+}
+
+.ml-logs-modal-not-found {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: -10vh;
+   width: 100%;
+}
+
+.ml-logs-modal-tab {
+   padding: 10px;
+}
+
+.ml-logs-modal-wrapper {
+   display: flex;
+}
+
+.ml-logs-modal-sidebar {
+   padding: 10px;
+   background: var(--background-secondary);
+   min-width: 12.5rem;
+}
+
+.ml-logs-modal-sidebar:empty {
+   min-width: 0 !important;
+   padding: 0 !important;
+   height: 0 !important;
+   width: 0 !important;
+}
+
+.ml-logs-message {
+   border-radius: 5px;
+}
+
+.ml-logs-modal-category {
+   margin-left: 10px;
+   margin-top: 20px;
+   margin-bottom: 5px;
+   display: flex;
+   align-items: center;
+}
+
+.ml-logs-modal-category > img {
+   margin-right: 5px;
+}
+
+.ml-logs-message[class*='groupStart'] {
+   margin-top: 10px;
+}
+
+.ml-logs-message > div[class*='buttonContainer-'] {
+   display: none;
+}
